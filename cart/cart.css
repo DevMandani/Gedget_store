@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+.container{
+    max-width:1320px;
+   margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.footer{
+    background-color: #6C798B;
+    
+  width:100%;
+      
+  }
+  .footer1{
+      
+      
+      margin:30px;
+  
+  }
+  h2{
+      font-family: 'Lato', sans-serif;
+      font-size: 30px;
+      font-weight: normal;
+      text-transform: none;
+      color: #364253;
+      line-height: 1.8;
+      letter-spacing: normal;
+  }
+  .d-footer{
+      color:white;
+      font-size: 25px;
+  }
+  .footer-img{
+      height:40px;
+      
+  }
+  .footer-dd{
+      padding-top: 30px;
+  }
+  .footer-dd1{
+      padding-top:30px;
+      color:white;
+  }
+  .footer-dd2{
+      color:white;
+  }
+  .footer-dd3{
+      padding-top: 30px;
+  }
+  .fa-facebook{
+      color:white;
+      font-size: 20px;
+  }
+  .fa-twitter{
+      color:white;
+      font-size: 20px;
+  }
+  .fa-pinterest{
+      color:white;
+      font-size: 20px;
+  }
+  .footer-dd4{
+      color:white;
+      font-size: 25px;
+  }
+  .footer-list{
+      padding-top: 30px;
+      padding-left:15px;
+     
+  }
+  .footer-li{
+      padding-left: 30px;
+      color:white;
+  }
+  .footer-dd5{
+      font-size: 25px;
+      color:white;
+  }
+  .footer-dd6{
+      height: 30px;
+  }
+  button{
+      background-color: white;
+      color:orange;
+     
+      padding: 5px;
+  }
+  .new-one{
+    color:black;
+    text-decoration: none;
+}
+  
+.new-box1{
+    width:100%;
+    height:70px;
+ 
+
+}
+.ged-box{
+    width: 80%;
+
+    
+    padding:7px;
+}
+.ged-box1{
+    width:20%;
+    padding:7px;
+}
+.new-two1{
+    color:black;
+    line-height: 70px;
+   }
+.zone1{
+    color: #364253;
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 3;
+    letter-spacing: normal;
+    padding-left: 500px;
+
+}
+
+
+.setnav{
+    position: sticky;
+    top: 0px;
+
+}
+
+.mainheader{
+
+    height:70px;
+    text-align: center;
+      margin:auto;
+      background-color: white;
+      backdrop-filter: blur(8px);
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      display: flex;
+      justify-content:center ;
+      flex-wrap: wrap;
+  
+  
+  }
+  
+.mainheader2{
+    
+   
+    height:100%;
+    
+}
+.new-two{
+    color:black;
+    column-gap:900px;
+   }
+   .header-logo{
+    column-gap: 100px;
+   }
+   .container1{
+    padding: 50px 0px;
+    max-width:1320px;
+    margin:auto;
+  
+    
+  
+   }
+   .cart-section{
+
+    width:100%;
+    
+    
+   }
+   .section1{
+    height:50px;
+    width:100%;
+    border:1px solid black;
+    display: flex;
+   }
+   .section2{
+    padding: 20px 0px;
+    border:1px solid yellow;
+    height:200px;
+    width:100%;
+    display: flex;
+
+   }
+
+   .sub-s1{
+    width:40%;
+    height:100%;
+    
+   }
+   .sub-s2{
+    width:20%;
+    height:100%;
+    border:1px solid gainsboro;
+
+   }
+.sub-s3{
+    height:100%;
+    width:40%;
+    border:1px solid blue;
+}
+.cart-1{
+    color: #6C798B;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 2;
+    letter-spacing: normal;
+}
+
+.newsub-s3{
+    height:100%;
+    width:40%;
+    border:1px solid blue;
+}
+.counter{
+    height:40px;
+    width:70px;
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.fa-plus{
+    font-size:10px;
+      
+}
+.cart-2{
+    column-gap:60px;  
+}
+.fa-minus{
+    font-size:10px;
+}

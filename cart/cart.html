@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+
+
+    <header>
+        <div class="container">
+            <div class="new-box1 d-flex">
+                <div class="ged-box">
+                  <b class="zone1">Gedget Zone</b>
+                </div>
+
+                <div class="ged-box1">
+                    <a class="new-two1" href="">  <i class="fa-solid fa-magnifying-glass"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp;<a class="new-two" href=""><i class="fa-solid fa-cart-shopping new-icon"></i></a>
+               
+                </div>
+
+            </div>
+    
+        </div>
+    </header>
+    <hr/>
+
+
+    
+    <div class=" setnav">
+        <div class="mainheader d-flex">
+          
+            <div class="mainheader2">
+              
+                <a class="new-one" href="#home">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="new-one" href="">Terms and Condition</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="new-one" href="">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+               
+            </div>
+            <div class="header-logo">
+              <a class="new-two" href="">  <i class="fa-solid fa-magnifying-glass"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp;<a class="new-two" href=""><i class="fa-solid fa-cart-shopping new-icon"></i></a>
+            </div>
+         
+
+
+            
+        </div>
+    </div>
+
+
+    <section>
+        <div class="container1">
+            <div class="cart-section d-flex">
+                <div class="section1">
+                    <div class="sub-s1">
+                        <p class="cart-1">Items</p>
+                    </div>
+                    <div class="sub-s2">
+                        <p class="cart-1">Quantity</p>
+                    </div>
+                    <div class="sub-s2">
+                        <p class="cart-1">Subtotal</p>
+                    </div>
+                    <div class="sub-s2">
+                        <p class="cart-1">Remove</p>
+                    </div>
+                </div>
+                <hr/>
+                <div class="section2 d-flex">
+
+                    <div class="newsub-s3">
+                        <div class="cart-img">
+                           
+                        </div>
+                    </div>
+                    <div class="sub-s2">
+                        <div class="counter"><i class="fa-solid fa-plus"></i><b class="cart-2" id="num">1</b><i onclick="inc()" class="fa-solid fa-minus"></i></div>
+                    </div>
+                    <div class="sub-s2">
+
+                    </div>
+                    <div class="sub-s2">
+
+                    </div>
+
+                </div>
+                <div class="section2">
+                    
+                    <div class="sub-s3">
+
+                    </div>
+                    <div class="sub-s2">
+
+                    </div>
+                    <div class="sub-s2">
+
+                    </div>
+                    <div class="sub-s2">
+
+                    </div>
+                </div>
+                <div class="section2">
+                    
+                    <div class="sub-s3">
+
+                    </div>
+                    <div class="sub-s2">
+
+                    </div>
+                    <div class="sub-s2">
+
+                    </div>
+                    <div class="sub-s2">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    
+    <footer>
+        <div class="container">
+            <div class="footer d-flex">
+                <div class="footer1">
+                    <b class="d-footer">Payment Option</b>
+                    <p class="footer-dd"><img class="footer-img"src="img/img17.png" alt="">&nbsp;&nbsp;&nbsp;<img class="footer-img" src="img/img16.png" alt="">&nbsp;&nbsp;&nbsp;<img class="footer-img" src="img/img15.png" alt=""></p>
+                    <p class="footer-dd1">&copy; gedget zone</p>
+                    <p class="footer-dd2">Powered by zoho commerce</p>
+                </div>
+                <div class="footer1">
+                    <b class="d-footer">Follow Us</b>
+                    <p class="footer-dd3"><i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-pinterest"></i></p>
+                </div>
+                <div class="footer1">
+                    <p class="footer-dd4">We Accept</p>
+                    <ul class="footer-list">
+                        <li class="footer-li">visa card</li>
+                        <br/>
+                        <li class="footer-li">visa card</li>
+                        <br/>
+                        <li class="footer-li">visa card</li>
+                    </ul>
+                </div>
+                <div class="footer1">
+                 <p class="footer-dd5">News Letter</p><br/><br/><br/>
+                 <p class="footer-dd6"><input class="footer-dd6" type="Email"  placeholder="Email"/></p>
+                <button class="footer-dd7">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+let num = document.querySelector("#num");
+      
+        function inc(){
+       
+            let one = parseInt(num.textContent)
+            one++;
+            num.textContent= one;
+            
+        }
+    </script>
+
+</body>
+</html>
