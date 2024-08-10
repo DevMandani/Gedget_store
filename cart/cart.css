@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin:0px;
     padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     max-width:1320px;
@@ -108,6 +109,41 @@
  
 
 }
+.vl{
+    border-bottom: 1px solid gainsboro;
+   width:1320px;
+}
+.c-b{
+   display: flex;
+   justify-content: end;
+
+}
+.f-d1{
+display: flex;
+flex-wrap: wrap;
+justify-content: start;
+gap: 850px;
+padding: 20px;
+}
+.cart-b{
+    padding: 7px 35px;
+    color:white;
+    border-color:#EB984E;
+    color:#EB984E
+}
+.cart-b:Hover{
+    background-color:#EB984E;
+    color:white;
+}
+.cart-b2{
+    padding:7px 35px;
+    color:white;
+    background-color:#EB984E;
+}
+.cart-b2:hover{
+    background-color:#ef8d38;
+}
+
 .ged-box{
     width: 80%;
 
@@ -186,12 +222,14 @@
    .section1{
     height:50px;
     width:100%;
-    border:1px solid black;
+    
+    
     display: flex;
    }
    .section2{
     padding: 20px 0px;
-    border:1px solid yellow;
+    
+    
     height:200px;
     width:100%;
     display: flex;
@@ -201,18 +239,23 @@
    .sub-s1{
     width:40%;
     height:100%;
+    display: flex;
+    align-items: center;
     
    }
    .sub-s2{
     width:20%;
     height:100%;
-    border:1px solid gainsboro;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
    }
 .sub-s3{
     height:100%;
     width:40%;
-    border:1px solid blue;
+    
 }
 .cart-1{
     color: #6C798B;
@@ -227,12 +270,12 @@
 .newsub-s3{
     height:100%;
     width:40%;
-    border:1px solid blue;
+    
 }
 .counter{
     height:40px;
     width:70px;
-    border:1px solid red;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,4 +290,48 @@
 }
 .fa-minus{
     font-size:10px;
+}
+.ri-delete-bin-line{
+    color:red;
+}
+
+.cart-img{
+    height:150px;
+    width:300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.img1{
+    height:100%;
+    width:100%;
+}
+.cart-d{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+}
+.cart-name{
+    color: #FDBD00;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+
+.price{
+    color: #6C798B !important;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
 }
